@@ -1,0 +1,8 @@
+mage:
+  file: Dockerfile
+
+tasks:
+  - command: >
+      echo Welcome to Alpine Gitpod
+ports:
+ - port: 8000
