@@ -12,8 +12,8 @@ ENV SHELL /bin/bash
 ENV USE_LOCAL_GIT true
 
 # Fix
-RUN addgroup -g 33333 gitpod && \
-    adduser -G gitpod -u 33333 -s /bin/bash -D gitpod
+#RUN addgroup -g 33333 gitpod && \
+#    adduser -G gitpod -u 33333 -s /bin/bash -D gitpod
 
 # Give control to gitpod
 USER root
